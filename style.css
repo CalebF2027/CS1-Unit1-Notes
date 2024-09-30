@@ -1,1 +1,16 @@
+/* This is a CSS COMMENT */
 
+/* Select by ekement TYPE */
+p {
+    color:rgb(30, 138, 9);
+}
+
+/* Select by CLASS name */
+.border {
+    border: 2px solid black;
+}
+
+/* Select by ID name */
+#intro {
+    background-color: aqua
+}
