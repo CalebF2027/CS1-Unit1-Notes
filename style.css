@@ -1,8 +1,8 @@
-/* This is a CSS COMMENT */
-
-/* Select by ekement TYPE */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Sixtyfour+Convergence');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 p {
     color:rgb(30, 138, 9);
+    font-family: "Sixtyfour Convergence";
 }
 
 /* Select by CLASS name */
@@ -10,25 +10,27 @@ p {
     border : 2px solid black;
     background-color: pink;
 }
-
+body {
+font-family: "Sixtyfour Convergence"
+}
 /* Select by ID name */
 #intro {
-    background-color: aqua
+    background-color: aqua;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family : fantasy;
+strong {
+    font-family: "fantasy";
 }
-
 /* Properties: colors and typography */
 strong {
     color: rgb(141, 255, 238);
     background-color: rgb(0, 0, 0);
     
-    font-family: impact;
+    font-family: "Qwitcher Grypen";
     font-weight: 900;
     font-style: italic;
 }
 
 h1 {
     text-align: center;
+    font-family: "Qwitcher Grypen";
 }
