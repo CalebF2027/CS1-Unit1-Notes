@@ -9,6 +9,7 @@ p {
 .border {
     border : 2px solid black;
     background-color: pink;
+    margin: auto;
 }
 body {
 font-family: "Sixtyfour Convergence"
@@ -16,9 +17,11 @@ font-family: "Sixtyfour Convergence"
 /* Select by ID name */
 #intro {
     background-color: aqua;
+    margin: autp;
 }
 strong {
     font-family: "fantasy";
+    margin: auto;
 }
 /* Properties: colors and typography */
 strong {
@@ -28,25 +31,37 @@ strong {
     font-family: "Qwitcher Grypen";
     font-weight: 900;
     font-style: italic;
+    margin: auto;
 }
 
 h1 {
     text-align: center;
+    margin: 10%;
     font-family: "Qwitcher Grypen";
+    padding: 10px;
 }
 *{
     border: 2px solid red;
     background-color: powderblue;
+    margin: auto;
 }
 img {
     border-width: 2px;
     border-style: groove;
-    border-color: greenyellow;
-    border-radius: 2px;
+    border-color: orchid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
 hr{
     border-width: 5px;
-    border-style: groove;
-    border-color: purple;
+    border-style: dashed;
+    border-color: hotpink;
 }
+
+.centered-container {
+    margin: auto;
+    text-align: center;
+}
+HTML CSSResult Skip Results Iframe
+EDIT ON
